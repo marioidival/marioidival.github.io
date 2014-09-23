@@ -5,7 +5,7 @@ python:
 install:
   "pip install -r requirements.txt"
 script:
-  - make publish
-#notifications:
-#  webhooks: # url to heroku app
+  - make html
+notifications:
+  webhooks: http://hooktweetblog.herokuapp.com/
 
