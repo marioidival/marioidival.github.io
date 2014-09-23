@@ -10,6 +10,7 @@ env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
+# test
 production = 'root@localhost:22'
 dest_path = '/var/www'
 
