@@ -7,5 +7,5 @@ install:
 script:
   - make show
 notifications:
-  webhooks: http://hooktweetblog.herokuapp.com/
+  webhooks: http://hooktwitterblog.herokuapp.com/
 
