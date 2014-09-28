@@ -24,6 +24,7 @@ themes/
 *.egg
 .DS_Store
 *.pid
+themes
 content
 # Installer logs
 pip-log.txt
