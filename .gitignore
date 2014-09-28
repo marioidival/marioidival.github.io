@@ -26,6 +26,8 @@ themes/
 *.pid
 themes
 content
+output
+cache
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
