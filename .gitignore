@@ -23,6 +23,8 @@ themes/
 .installed.cfg
 *.egg
 .DS_Store
+*.pid
+content
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
