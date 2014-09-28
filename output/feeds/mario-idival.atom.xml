@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mario Idival on Blog</title><link href="/" rel="alternate"></link><link href="/feeds/mario-idival.atom.xml" rel="self"></link><id>/</id><updated>2014-09-28T00:46:00-03:00</updated><entry><title>Como iniciar no Desenvolvimento Web</title><link href="/iniciando-no-desenvolvimento-web.html" rel="alternate"></link><updated>2014-09-28T00:46:00-03:00</updated><author><name>Mário Idival</name></author><id>tag:,2014-09-28:iniciando-no-desenvolvimento-web.html</id><summary type="html">&lt;h1&gt;Introdução&lt;/h1&gt;
+&lt;p&gt;A dias já pensava em criar algum post relacionado a este assunto. Vejo
+muita gente perguntando, não só na comunidade Python, como iniciar o
+desenvolvimento web. E a resposta sempre é a mesma, dependendo da
+comunidade:&lt;/p&gt;
+&lt;p&gt;Ruby:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Vai&lt;/span&gt; &lt;span class="n"&gt;de&lt;/span&gt; &lt;span class="n"&gt;Rails&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt; &lt;span class="err"&gt;É&lt;/span&gt; &lt;span class="n"&gt;o&lt;/span&gt; &lt;span class="n"&gt;melhor&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Python:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Vai&lt;/span&gt; &lt;span class="n"&gt;de&lt;/span&gt; &lt;span class="n"&gt;Django&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt; &lt;span class="err"&gt;É&lt;/span&gt; &lt;span class="n"&gt;o&lt;/span&gt; &lt;span class="n"&gt;melhor&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Javascript:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Vai&lt;/span&gt; &lt;span class="n"&gt;de&lt;/span&gt; &lt;span class="n"&gt;Express&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt; &lt;span class="err"&gt;É&lt;/span&gt; &lt;span class="n"&gt;o&lt;/span&gt; &lt;span class="n"&gt;melhor&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Mas a galera esquece de um detalhe, quem está perguntando provavelmente
+nunca desenvolveu para Web, não sabe como funciona o basico de uma requisição http
+e indicam um monstro para o(a) coitado(a) começar.&lt;/p&gt;
+&lt;h1&gt;Minha experiencia inicial&lt;/h1&gt;
+&lt;p&gt;Quando quis iniciar nessa área, eu programava/estudava Ruby e
+naturalmente até hoje, se qualquer um perguntar que framework Ruby usar
+a resposta será uma, Rails. E comigo não foi diferente.&lt;/p&gt;
+&lt;p&gt;Comecei a estudar o Rails e as primeiras informações a respeito foram:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Ruby&lt;/span&gt; &lt;span class="n"&gt;on&lt;/span&gt; &lt;span class="n"&gt;Rails&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Rails&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;é&lt;/span&gt; &lt;span class="n"&gt;um&lt;/span&gt; &lt;span class="n"&gt;Web&lt;/span&gt; &lt;span class="n"&gt;framework&lt;/span&gt; &lt;span class="n"&gt;full&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;stack&lt;/span&gt; &lt;span class="n"&gt;baseado&lt;/span&gt; &lt;span class="n"&gt;em&lt;/span&gt; &lt;span class="n"&gt;MVC&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="n"&gt;utiliza&lt;/span&gt; &lt;span class="n"&gt;RESTful&lt;/span&gt; &lt;span class="n"&gt;e&lt;/span&gt; &lt;span class="n"&gt;facilmente&lt;/span&gt; &lt;span class="n"&gt;pode&lt;/span&gt; &lt;span class="n"&gt;gerar&lt;/span&gt; &lt;span class="n"&gt;um&lt;/span&gt; &lt;span class="n"&gt;CRUD&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;O Rails faz muito mais do que isso&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;WTF &lt;strong&gt;FULL-STACK&lt;/strong&gt;? WTF &lt;strong&gt;MVC&lt;/strong&gt;? WTF &lt;strong&gt;RESTFul&lt;/strong&gt;? WTF &lt;strong&gt;CRUD&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;Para a galera que já conhece, isso já está no sangue (&lt;em&gt;ou deveria&lt;/em&gt;),
+são ideias simples. Mas para iniciantes, isso são coisas de outro mundo,
+além de um novo mundo que eles estão querendo entrar, que é o do Desenvolvimento Web.&lt;/p&gt;
+&lt;p&gt;Eu estranhei tudo isso, sempre quando eu tentava fazer algo com o
+scaffold e dava errado, achava que era alguma coisa relacionada a MVC ou
+outro daqueles itens que eu não sabia para que servia.&lt;/p&gt;
+&lt;p&gt;E eu na idéia da galera que me indicou este framework, achava que ia
+conseguir fazer coisas bem rapidamente, que poderia usar o form do html para
+passar algumas coisas para o servidor, como um cadastro na minha app de agenda
+telefônica.&lt;/p&gt;
+&lt;p&gt;E foi difícil. Tinha pouca idéia de relacionamento com tabelas e já
+aparecia um Model. Tinha que mostrar alguns itens na minha pagina
+inicial mas também não sabia como o Controller funcionava e como
+pegava esses itens e muito menos em qual View eu deveria colocar.&lt;/p&gt;
+&lt;p&gt;Sem contar a principal duvida. Como que a pagina Web sabe qual
+controller(ou view) é o correto? Quem inicia o desenvolvimento web,
+não sabe o que é um Request, Response, como funciona a Rota (Routes),
+o que está acontecendo realmente para que a minha pagina apareça.&lt;/p&gt;
+&lt;h1&gt;Minha maneira correta&lt;/h1&gt;
+&lt;p&gt;Depois de apanhar varias e varias vezes, passar por 2 processos de
+comunicação [SERVER -&amp;gt; APP (WSGI-Python, Rack-Ruby)], procurar por MVC,
+por REST, CRUD, Banco de Dados, Templates, Settings e etc.
+Creio que a melhor forma de introduzir um iniciante ao mundo do
+desenvolvimento web, é usando um miniframework.&lt;/p&gt;
+&lt;p&gt;Python e Ruby tem famosos miniframeworks.
+&lt;a href="http://www.sinatrarb.com/"&gt;Sinatra&lt;/a&gt; na comunidade Ruby e
+&lt;a href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt; na comunidade Python. Ambos são ótimos
+para ensinar. O funcionamento da rota é simples de explicar, assim como
+as views/controllers que nesses frameworks são apenas fáceis métodos,
+que o iniciante vai saber identificar ali com um minimo esforço o que
+está acontecendo. Não tem um padrão como o MVC a seguir (uma pilha de
+metodos vai fazer o que ele quer). Não precisa configurar nada em nenhum
+arquivo adicional (como settings ou configs). Para a simples aplicação
+que ele quer fazer para estudo, vai ser de ótima ajuda.&lt;/p&gt;
+&lt;h3&gt;Observação:&lt;/h3&gt;
+&lt;p&gt;Se existe alguma coisa que você ache errado ou que faz diferente, cria
+um comentario para discutimos.&lt;/p&gt;
+&lt;p&gt;Esse foi o meu segundo post.&lt;/p&gt;</summary><category term="frameworks"></category><category term="rails"></category><category term="sinatra"></category><category term="flask"></category><category term="django"></category></entry></feed>
