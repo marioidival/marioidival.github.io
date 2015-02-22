@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mario Idival on Blog</title><link href="/" rel="alternate"></link><link href="/feeds/mario-idival.atom.xml" rel="self"></link><id>/</id><updated>2014-12-04T23:30:00-02:00</updated><entry><title>Web Frameworks, Web Frameworks EVERYWHERE!</title><link href="/web-frameworks-everywhere.html" rel="alternate"></link><updated>2014-12-04T23:30:00-02:00</updated><author><name>Mário Idival</name></author><id>tag:,2014-12-04:web-frameworks-everywhere.html</id><summary type="html">&lt;h1&gt;Introdução&lt;/h1&gt;
+=======
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Mario Idival on Blog</title><link href="/" rel="alternate"></link><link href="/feeds/mario-idival.atom.xml" rel="self"></link><id>/</id><updated>2015-02-22T12:15:00-03:00</updated><entry><title>Github Star</title><link href="/github-star.html" rel="alternate"></link><updated>2015-02-22T12:15:00-03:00</updated><author><name>Mário Idival</name></author><id>tag:,2015-02-22:github-star.html</id><summary type="html">&lt;h1&gt;Mendigando Star no Github&lt;/h1&gt;
 &lt;p&gt;Pode parecer que estou pedindo &lt;code&gt;star&lt;/code&gt; em meus projetos no Github, mas é em prol da comunidade OSI. Deveríamos dar mais &lt;code&gt;Star&lt;/code&gt; em outros projetos&lt;/p&gt;
 &lt;h1&gt;* &lt;em&gt; * &lt;/em&gt; *&lt;/h1&gt;
@@ -18,6 +21,7 @@ elas descobriram. Então quando essa pessoa da um &lt;code&gt;Star&lt;/code&gt; 
 &lt;h3&gt;Observação:&lt;/h3&gt;
 &lt;p&gt;Se existe alguma coisa que você pense diferente, cria um comentário para discutimos.&lt;/p&gt;
 &lt;p&gt;Esse for o meu quarto post.&lt;/p&gt;</summary><category term="marioidival"></category><category term="github"></category><category term="osi"></category></entry><entry><title>Web Frameworks, Web Frameworks EVERYWHERE!</title><link href="/web-frameworks-everywhere.html" rel="alternate"></link><updated>2014-12-04T23:30:00-02:00</updated><author><name>Mário Idival</name></author><id>tag:,2014-12-04:web-frameworks-everywhere.html</id><summary type="html">&lt;h1&gt;Introdução&lt;/h1&gt;
+>>>>>>> gh-pages
 &lt;p&gt;Nesse exato momento, vários programadores da comunidade Python estão
 criando cursos (ou já criaram), para ensinar pela visão deles, sobre alguns frameworks
 usados para o desenvolvimento web. &lt;a href="http://djangoproject.com"&gt;Django&lt;/a&gt;, &lt;a href="http://www.web2py.com"&gt;Web2py&lt;/a&gt;, &lt;a href="http://www.pylonsproject.org"&gt;Pyramid&lt;/a&gt;, &lt;a href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt;,
