@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mario Idival on Blog</title><link>/</link><description>Não sou bom escrevendo</description><atom:link href="/feeds/mario-idival.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 04 Dec 2014 23:30:00 -0200</lastBuildDate><item><title>Web Frameworks, Web Frameworks EVERYWHERE!</title><link>/web-frameworks-everywhere.html</link><description>&lt;h1&gt;Introdução&lt;/h1&gt;
+=======
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mario Idival on Blog</title><link>/</link><description>Não sou bom escrevendo</description><atom:link href="/feeds/mario-idival.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 22 Feb 2015 12:15:00 -0300</lastBuildDate><item><title>Github Star</title><link>/github-star.html</link><description>&lt;h1&gt;Mendigando Star no Github&lt;/h1&gt;
+&lt;p&gt;Pode parecer que estou pedindo &lt;code&gt;star&lt;/code&gt; em meus projetos no Github, mas é em prol da comunidade OSI. Deveríamos dar mais &lt;code&gt;Star&lt;/code&gt; em outros projetos&lt;/p&gt;
+&lt;h1&gt;* &lt;em&gt; * &lt;/em&gt; *&lt;/h1&gt;
+&lt;p&gt;Você sabe o que seus &lt;code&gt;stars&lt;/code&gt; pode fazer? Observe:&lt;/p&gt;
+&lt;p&gt;Pessoas que de fato, gostam de contribuir e interagir no mundo Open Source pelo Github, visitam uma pagina especifica nele, a &lt;a href="https://github.com/explore"&gt;Explore&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Inicialmente, o Github categoriza alguns projetos com maior visibilidade (stars/forks) dessa forma:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Explore Github" src="https://www.dropbox.com/s/u482jy1xne6sp4v/Captura%20de%20tela%202015-02-22%2012.38.20.png?raw=true" title="Explore" /&gt;&lt;/p&gt;
+&lt;p&gt;Logo depois, os &lt;code&gt;Trending repositories&lt;/code&gt; que pode ser filtrados em &lt;code&gt;Today&lt;/code&gt;, &lt;code&gt;Week&lt;/code&gt; e &lt;code&gt;Month&lt;/code&gt;. Nesse tópico ficam os projetos que conseguiram mais &lt;code&gt;stars&lt;/code&gt; e &lt;code&gt;forks&lt;/code&gt; no seu respectivo filtro &lt;em&gt;(ainda não é tão legal)&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Trending Repositories" src="https://www.dropbox.com/s/k0eo5bp6zypwt3j/Captura%20de%20tela%202015-02-22%2012.42.28.png?raw=true" title="Trending Repositories" /&gt;&lt;/p&gt;
+&lt;h3&gt;O legal&lt;/h3&gt;
+&lt;p&gt;Após os &lt;code&gt;Trending Repositories&lt;/code&gt; vem a parte legal do Explore, os projetos que as pessoas que você segue deram &lt;code&gt;Star&lt;/code&gt; aparecem ali.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Trending Follow Repositories" src="https://www.dropbox.com/s/1rwzrtrg36xxufb/Captura%20de%20tela%202015-02-22%2012.49.31.png?raw=true" title="Starred by people you follow" /&gt;&lt;/p&gt;
+&lt;p&gt;O provável motivo de você seguir algumas pessoas no Github, é que você espera que elas possam ajudar você a descobrir coisas novas, que estão fazendo, ou que
+elas descobriram. Então quando essa pessoa da um &lt;code&gt;Star&lt;/code&gt; em algum projeto, ela amplia a visão (em projetos) de seus seguidores no Github.&lt;/p&gt;
+&lt;p&gt;Então, se você é uma pessoa que tem muitos seguidores no Github, ou até mesmo poucos, adquira essa cultura do &lt;code&gt;Star&lt;/code&gt; de vez!&lt;/p&gt;
+&lt;p&gt;Tente aplicar um filtro, não veja apenas o seu - digo, &lt;em&gt;se eu gostei desse projeto, eu dou um &lt;code&gt;Star&lt;/code&gt;, senão, passo...&lt;/em&gt; - veja por um lado que a sua comunidade de alguma forma pode se beneficiar com esse projeto.&lt;/p&gt;
+&lt;h3&gt;Observação:&lt;/h3&gt;
+&lt;p&gt;Se existe alguma coisa que você pense diferente, cria um comentário para discutimos.&lt;/p&gt;
+&lt;p&gt;Esse for o meu quarto post.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mário Idival</dc:creator><pubDate>Sun, 22 Feb 2015 12:15:00 -0300</pubDate><guid>tag:,2015-02-22:github-star.html</guid><category>marioidival</category><category>github</category><category>osi</category></item><item><title>Web Frameworks, Web Frameworks EVERYWHERE!</title><link>/web-frameworks-everywhere.html</link><description>&lt;h1&gt;Introdução&lt;/h1&gt;
+>>>>>>> gh-pages
 &lt;p&gt;Nesse exato momento, vários programadores da comunidade Python estão
 criando cursos (ou já criaram), para ensinar pela visão deles, sobre alguns frameworks
 usados para o desenvolvimento web. &lt;a href="http://djangoproject.com"&gt;Django&lt;/a&gt;, &lt;a href="http://www.web2py.com"&gt;Web2py&lt;/a&gt;, &lt;a href="http://www.pylonsproject.org"&gt;Pyramid&lt;/a&gt;, &lt;a href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt;,
