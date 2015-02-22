@@ -38,7 +38,7 @@ THEME = 'themes/jesuislibre'
 
 AUTHOR_IMG = 'https://avatars0.githubusercontent.com/u/1129263?v=2&s=460'
 AUTHOR_LINK = 'https://marioidival.github.io'
-AUTHOR_SUMMARY = """Mário Idival, 22 anos. Desenvolvedor Web focado no Back-end
+AUTHOR_SUMMARY = """Mário Idival, 23 anos. Desenvolvedor Web focado no Back-end
     utilizando Python (Pyramid) com MongoDB atualmente."""
 
 # Uncomment following line if you want document-relative URLs when developing
