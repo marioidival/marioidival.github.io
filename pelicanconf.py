@@ -70,3 +70,5 @@ COLOPHON_CONTENT = """
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+PATH = 'content'
+IGNORE_FILES = ['.DS_Store']
