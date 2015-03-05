@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mario Idival on Blog</title><link href="/" rel="alternate"></link><link href="/feeds/python-frameworks-iniciante.atom.xml" rel="self"></link><id>/</id><updated>2014-12-04T23:30:00-02:00</updated><entry><title>Web Frameworks, Web Frameworks EVERYWHERE!</title><link href="/web-frameworks-everywhere.html" rel="alternate"></link><updated>2014-12-04T23:30:00-02:00</updated><author><name>Mário Idival</name></author><id>tag:,2014-12-04:web-frameworks-everywhere.html</id><summary type="html">&lt;h1&gt;Introdução&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mario Idival on Blog</title><link href="https://marioidival.github.io/" rel="alternate"></link><link href="https://marioidival.github.io/feeds/python-frameworks-iniciante.atom.xml" rel="self"></link><id>https://marioidival.github.io/</id><updated>2014-12-04T23:30:00-03:00</updated><entry><title>Web Frameworks, Web Frameworks EVERYWHERE!</title><link href="https://marioidival.github.io/web-frameworks-everywhere.html" rel="alternate"></link><updated>2014-12-04T23:30:00-03:00</updated><author><name>Mário Idival</name></author><id>tag:marioidival.github.io,2014-12-04:web-frameworks-everywhere.html</id><summary type="html">&lt;h1&gt;Introdução&lt;/h1&gt;
 &lt;p&gt;Nesse exato momento, vários programadores da comunidade Python estão
 criando cursos (ou já criaram), para ensinar pela visão deles, sobre alguns frameworks
 usados para o desenvolvimento web. &lt;a href="http://djangoproject.com"&gt;Django&lt;/a&gt;, &lt;a href="http://www.web2py.com"&gt;Web2py&lt;/a&gt;, &lt;a href="http://www.pylonsproject.org"&gt;Pyramid&lt;/a&gt;, &lt;a href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt;,
@@ -25,23 +25,23 @@ que o aluno/programador vai saber, de fato, fazer suas escolhas.&lt;/p&gt;
 &lt;h3&gt;Observação:&lt;/h3&gt;
 &lt;p&gt;Se existe alguma coisa que você ache errado ou que faz diferente, cria
 um comentário para discutimos.&lt;/p&gt;
-&lt;p&gt;Esse foi o meu terceiro post.&lt;/p&gt;</summary><category term="frameworks"></category><category term="django"></category><category term="web2py"></category><category term="flask"></category><category term="bottle"></category><category term="pyramid"></category><category term="gae"></category></entry><entry><title>Como iniciar no Desenvolvimento Web</title><link href="/iniciando-no-desenvolvimento-web.html" rel="alternate"></link><updated>2014-09-28T00:46:00-03:00</updated><author><name>Mário Idival</name></author><id>tag:,2014-09-28:iniciando-no-desenvolvimento-web.html</id><summary type="html">&lt;h1&gt;Introdução&lt;/h1&gt;
+&lt;p&gt;Esse foi o meu terceiro post.&lt;/p&gt;</summary><category term="frameworks"></category><category term="django"></category><category term="web2py"></category><category term="flask"></category><category term="bottle"></category><category term="pyramid"></category><category term="gae"></category></entry><entry><title>Como iniciar no Desenvolvimento Web</title><link href="https://marioidival.github.io/iniciando-no-desenvolvimento-web.html" rel="alternate"></link><updated>2014-09-28T00:46:00-03:00</updated><author><name>Mário Idival</name></author><id>tag:marioidival.github.io,2014-09-28:iniciando-no-desenvolvimento-web.html</id><summary type="html">&lt;h1&gt;Introdução&lt;/h1&gt;
 &lt;p&gt;A dias já pensava em criar algum post relacionado a este assunto. Vejo
 muita gente perguntando, não só na comunidade Python, como iniciar o
 desenvolvimento web. E a resposta sempre é a mesma, dependendo da
 comunidade:&lt;/p&gt;
 &lt;p&gt;Ruby:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Vai&lt;/span&gt; &lt;span class="n"&gt;de&lt;/span&gt; &lt;span class="n"&gt;Rails&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt; &lt;span class="err"&gt;É&lt;/span&gt; &lt;span class="n"&gt;o&lt;/span&gt; &lt;span class="n"&gt;melhor&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Vai de Rails! É o melhor!
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Python:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Vai&lt;/span&gt; &lt;span class="n"&gt;de&lt;/span&gt; &lt;span class="n"&gt;Django&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt; &lt;span class="err"&gt;É&lt;/span&gt; &lt;span class="n"&gt;o&lt;/span&gt; &lt;span class="n"&gt;melhor&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Vai de Django! É o melhor!
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Javascript:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Vai&lt;/span&gt; &lt;span class="n"&gt;de&lt;/span&gt; &lt;span class="n"&gt;Express&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt; &lt;span class="err"&gt;É&lt;/span&gt; &lt;span class="n"&gt;o&lt;/span&gt; &lt;span class="n"&gt;melhor&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Vai de Express! É o melhor!
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -53,8 +53,8 @@ e indicam um monstro para o(a) coitado(a) começar.&lt;/p&gt;
 naturalmente até hoje, se qualquer um perguntar que framework Ruby usar
 a resposta será uma, Rails. E comigo não foi diferente.&lt;/p&gt;
 &lt;p&gt;Comecei a estudar o Rails e as primeiras informações a respeito foram:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Ruby&lt;/span&gt; &lt;span class="n"&gt;on&lt;/span&gt; &lt;span class="n"&gt;Rails&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Rails&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;é&lt;/span&gt; &lt;span class="n"&gt;um&lt;/span&gt; &lt;span class="n"&gt;Web&lt;/span&gt; &lt;span class="n"&gt;framework&lt;/span&gt; &lt;span class="n"&gt;full&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;stack&lt;/span&gt; &lt;span class="n"&gt;baseado&lt;/span&gt; &lt;span class="n"&gt;em&lt;/span&gt; &lt;span class="n"&gt;MVC&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;span class="n"&gt;utiliza&lt;/span&gt; &lt;span class="n"&gt;RESTful&lt;/span&gt; &lt;span class="n"&gt;e&lt;/span&gt; &lt;span class="n"&gt;facilmente&lt;/span&gt; &lt;span class="n"&gt;pode&lt;/span&gt; &lt;span class="n"&gt;gerar&lt;/span&gt; &lt;span class="n"&gt;um&lt;/span&gt; &lt;span class="n"&gt;CRUD&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Ruby on Rails (Rails) é um Web framework full-stack baseado em MVC,
+utiliza RESTful e facilmente pode gerar um CRUD.
 &lt;/pre&gt;&lt;/div&gt;
 
 
