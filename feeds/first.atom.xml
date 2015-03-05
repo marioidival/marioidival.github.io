@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mario Idival on Blog</title><link href="https://marioidival.github.io/" rel="alternate"></link><link href="https://marioidival.github.io/feeds/first.atom.xml" rel="self"></link><id>https://marioidival.github.io/</id><updated>2014-09-26T00:26:00-03:00</updated><entry><title>First</title><link href="https://marioidival.github.io/first-post.html" rel="alternate"></link><updated>2014-09-26T00:26:00-03:00</updated><author><name>Mário Idival</name></author><id>tag:marioidival.github.io,2014-09-26:first-post.html</id><summary type="html">&lt;h1&gt;Primeiramente, Bem vindo!&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mario Idival on Blog</title><link href="/" rel="alternate"></link><link href="/feeds/first.atom.xml" rel="self"></link><id>/</id><updated>2014-09-26T00:26:00-03:00</updated><entry><title>First</title><link href="/first-post.html" rel="alternate"></link><updated>2014-09-26T00:26:00-03:00</updated><author><name>Mário Idival</name></author><id>tag:,2014-09-26:first-post.html</id><summary type="html">&lt;h1&gt;Primeiramente, Bem vindo!&lt;/h1&gt;
 &lt;p&gt;:)&lt;/p&gt;
 &lt;h1&gt;Segundamente Quem sou eu (parcialmente)&lt;/h1&gt;
 &lt;p&gt;Bom, me chamo Mário Idival, tenho 22 anos e sou Programador/Desenvolvedor Web usando
