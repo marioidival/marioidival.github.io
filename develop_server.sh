@@ -85,6 +85,7 @@ function start_up(){
 ###
 #  MAIN
 ###
+export PELICAN_ON_DEV="1"
 [[ ($# -eq 0) || ($# -gt 2) ]] && usage
 port=''
 [[ $# -eq 2 ]] && port=$2

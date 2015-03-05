@@ -7,9 +7,14 @@ BASE = os.path.dirname(__file__)
 AUTHOR = 'Mario Idival'
 SITENAME = 'Mario Idival on Blog'
 SITESUBTITLE = 'Não sou bom escrevendo'
-# SITEURL = 'https://marioidival.github.io'
+
+if not os.environ.get("PELICAN_ON_DEV"):
+    SITEURL = 'https://marioidival.github.io/'
+else:
+    SITEURL = "http://localhost:8000/"
+
 PATH = 'content'
-TIMEZONE = 'America/Sao_Paulo'
+TIMEZONE = 'America/Recife'
 DEFAULT_LANG = 'pt'
 DISQUS_SITENAME = u'marioidivalgithubio'
 EMAIL = "marioidival@gmail.com"
@@ -59,9 +64,9 @@ THEME = "/Users/marioidival/Development/python/projects/pelican-utils/pelican-th
 AUTHOR_IMG = 'https://avatars0.githubusercontent.com/u/1129263?v=2&s=460'
 COLOPHON = True
 COLOPHON_TITLE = 'https://marioidival.github.io'
-COLOPHON_CONTENT = """Mário Idival, 23 anos. Desenvolvedor Web focado no Back-end
-    utilizando Python (Pyramid) com MongoDB atualmente."""
+COLOPHON_CONTENT = """
+    Mário Idival, 23 anos. Desenvolvedor Web focado no Back-end utilizando Python (Pyramid) com MongoDB atualmente.
+"""
 
 # Uncomment following line if you want document-relative URLs when developing
-GOOGLE_ANALYTICS = "UA-60419039-1"
-#RELATIVE_URLS = Tru
+RELATIVE_URLS = True
