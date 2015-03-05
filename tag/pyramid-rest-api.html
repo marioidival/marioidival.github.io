@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+        <meta charset="utf-8" />
+        <title>Mario Idival on Blog - pyramid rest api</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Mario Idival on Blog  <strong>Não sou bom escrevendo</strong></a></h1>
+                <nav><ul>
+                </ul>
+                </nav>
+<div id="submenu">
+                    <ul>
+                            <li><a href="/category/first.html">first</a></li>
+                            <li><a href="/category/github-osi.html">Github, OSI</a></li>
+                            <li><a href="/category/pyramid-rest-api.html">pyramid rest-api</a></li>
+                            <li><a href="/category/python-frameworks-iniciante.html">Python, Frameworks, Iniciante</a></li>
+                    </ul>
+                <div>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/api-rest-sem-dependencias-pyramid.html">API REST com Pyramid, sem dependências</a></h1>
+<footer class="post-info">
+        <span>Qua 04 Março 2015</span>
+	        <span>| in <a href="/category/pyramid-rest-api.html">pyramid rest-api</a></span>
+<span>| tags: <a href="/tag/pyramid-rest-api.html">pyramid rest api</a></span>
+</footer><!-- /.post-info --><h1>Introdução</h1>
+<p>Já estava na hora de existir um tutorial criando uma API REST com Pyramid</p>
+<div class="highlight"><pre><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">unicode_literals</span>
+
+<span class="kn">from</span> <span class="nn">pyramid.config</span> <span class="kn">import</span> <span class="n">Configurator</span>
+<span class="kn">from</span> <span class="nn">pyramid.view</span> <span class="kn">import</span> <span class="n">view_config</span><span class="p">,</span> <span class="n">view_defaults</span>
+
+<span class="kn">from</span> <span class="nn">wsgiref.simple_server</span> <span class="kn">import</span> <span class="n">make_server</span>
+
+<span class="n">PETS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="s">&quot;name&quot;</span><span class="p">:</span> <span class="s">&quot;Xhyko&quot;</span><span class="p">,</span>
+        <span class="s">&quot;type&quot;</span><span class="p">:</span> <span class="s">&quot;cat&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s">&quot;id&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+        <span class="s">&quot;name&quot;</span><span class="p">:</span> <span class="s">&quot;Mieu&quot;</span><span class="p">,</span>
+        <span class="s">&quot;type&quot;</span><span class="p">:</span> <span class="s">&quot;cat&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s">&quot;id&quot;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+        <span class="s">&quot;name&quot;</span><span class="p">:</span> <span class="s">&quot;Aruk&quot;</span><span class="p">,</span>
+        <span class="s">&quot;type&quot;</span><span class="p">:</span> <span class="s">&quot;dog&quot;</span>
+    <span class="p">}</span>
+<span class="p">]</span>
+
+<span class="nd">@view_defaults</span><span class="p">(</span><span class="n">route_name</span><span class="o">=</span><span class="s">&quot;pets_collection&quot;</span><span class="p">,</span> <span class="n">renderer</span><span class="o">=</span><span class="s">&quot;json&quot;</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">PetViews</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">request</span> <span class="o">=</span> <span class="n">request</span>
+
+    <span class="nd">@view_config</span><span class="p">(</span><span class="n">route_name</span><span class="o">=</span><span class="s">&quot;pets&quot;</span><span class="p">,</span> <span class="n">request_method</span><span class="o">=</span><span class="s">&quot;GET&quot;</span><span class="p">)</span>
+    <span class="nd">@view_config</span><span class="p">(</span><span class="n">request_method</span><span class="o">=</span><span class="s">&quot;GET&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">get_pets</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">pet_id</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">matchdict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;pet_id&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+
+        <span class="k">if</span> <span class="n">pet_id</span><span class="p">:</span>
+            <span class="n">pet</span> <span class="o">=</span> <span class="p">[</span><span class="n">pet</span> <span class="k">for</span> <span class="n">pet</span> <span class="ow">in</span> <span class="n">PETS</span> <span class="k">if</span> <span class="n">pet</span><span class="p">[</span><span class="s">&quot;id&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">pet_id</span><span class="p">]</span>
+            <span class="k">return</span> <span class="n">pet</span>
+
+        <span class="k">return</span> <span class="n">PETS</span>
+
+    <span class="nd">@view_config</span><span class="p">(</span><span class="n">request_method</span><span class="o">=</span><span class="s">&quot;POST&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">post_pets</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">params</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">params</span><span class="p">)</span>
+        <span class="n">params</span><span class="p">[</span><span class="s">&quot;id&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">params</span><span class="p">[</span><span class="s">&quot;id&quot;</span><span class="p">])</span>
+
+        <span class="n">PETS</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">params</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">PETS</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="nd">@view_config</span><span class="p">(</span><span class="n">route_name</span><span class="o">=</span><span class="s">&quot;pets&quot;</span><span class="p">,</span> <span class="n">request_method</span><span class="o">=</span><span class="s">&quot;PUT&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">put_pets</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">pet_id</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">matchdict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;pet_id&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+
+        <span class="k">if</span> <span class="n">pet_id</span><span class="p">:</span>
+            <span class="n">pet</span> <span class="o">=</span> <span class="p">[</span><span class="n">pet</span> <span class="k">for</span> <span class="n">pet</span> <span class="ow">in</span> <span class="n">PETS</span> <span class="k">if</span> <span class="n">pet</span><span class="p">[</span><span class="s">&quot;id&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">pet_id</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">pet</span><span class="p">:</span>
+                <span class="n">params</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">params</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+                <span class="n">pet</span> <span class="o">=</span> <span class="n">pet</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="nb">dict</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">params</span><span class="p">))</span>
+                <span class="k">return</span> <span class="n">pet</span>
+
+    <span class="nd">@view_config</span><span class="p">(</span><span class="n">route_name</span><span class="o">=</span><span class="s">&quot;pets&quot;</span><span class="p">,</span> <span class="n">request_method</span><span class="o">=</span><span class="s">&quot;DELETE&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">delete_pets</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">pet_id</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">matchdict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;pet_id&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+        <span class="n">pet</span> <span class="o">=</span> <span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">pet</span><span class="p">:</span> <span class="n">pet</span><span class="p">[</span><span class="s">&#39;id&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">pet_id</span><span class="p">,</span> <span class="n">PETS</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">pet</span><span class="p">:</span>
+            <span class="n">PETS</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">pet</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="k">return</span> <span class="bp">True</span>
+
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="n">Configurator</span><span class="p">()</span>
+
+    <span class="n">config</span><span class="o">.</span><span class="n">add_route</span><span class="p">(</span><span class="s">&quot;pets_collection&quot;</span><span class="p">,</span> <span class="s">&#39;/pets/&#39;</span><span class="p">)</span>
+    <span class="n">config</span><span class="o">.</span><span class="n">add_route</span><span class="p">(</span><span class="s">&quot;pets&quot;</span><span class="p">,</span> <span class="s">&#39;/pets/{pet_id}/&#39;</span><span class="p">)</span>
+
+    <span class="n">config</span><span class="o">.</span><span class="n">scan</span><span class="p">()</span>
+    <span class="n">app</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">make_wsgi_app</span><span class="p">()</span>
+    <span class="n">server</span> <span class="o">=</span> <span class="n">make_server</span><span class="p">(</span><span class="s">&#39;0.0.0.0&#39;</span><span class="p">,</span> <span class="mi">8080</span><span class="p">,</span> <span class="n">app</span><span class="p">)</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">serve_forever</span><span class="p">()</span>
+</pre></div><p><a href="/api-rest-sem-dependencias-pyramid.html#disqus_thread">comments</a></p>                </article>
+<p class="paginator">
+    Page 1 / 1
+</p>
+            </aside><!-- /#featured -->
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/archives.html">Arquivos</a></li>
+                            <li><a href="/tags.html">Tags</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="http://github.com/marioidival">github</a></li>
+                            <li><a href="http://pt.linkedin.com/in/marioidival">linkedin</a></li>
+                            <li><a href="http://www.twitter.com/marioidival">twitter</a></li>
+                            <li><a href="http://www.facebook.com/marioidival">facebook</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
+        </footer><!-- /#contentinfo -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'marioidivalgithubio';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+</body>
+</html>
