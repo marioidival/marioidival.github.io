@@ -1,4 +1,8 @@
-language: python
+branches:
+    only:
+        - gh-pages
+language:
+    python
 python:
   - "2.7"
     # command to install dependencies
@@ -7,5 +11,5 @@ install:
 script:
   - make show
 notifications:
-  webhooks: http://hooktwitterblog.herokuapp.com/travis
+    webhooks: http://hooktwitterblog.herokuapp.com/travis
 
