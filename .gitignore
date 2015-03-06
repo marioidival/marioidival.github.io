@@ -25,7 +25,6 @@ themes/
 .DS_Store
 *.pid
 themes
-content
 output
 cache
 # Installer logs
