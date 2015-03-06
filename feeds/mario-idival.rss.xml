@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mario Idival on Blog</title><link>https://marioidival.github.io/</link><description>Não sou bom escrevendo</description><atom:link href="https://marioidival.github.io/feeds/mario-idival.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 22 Feb 2015 12:15:00 -0300</lastBuildDate><item><title>Github Star</title><link>https://marioidival.github.io/github-star.html</link><description>&lt;h1&gt;Mendigando Star no Github&lt;/h1&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mario Idival on Blog</title><link>http://marioidival.github.io/</link><description>Não sou bom escrevendo</description><atom:link href="http://marioidival.github.io/feeds/mario-idival.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 22 Feb 2015 12:15:00 -0300</lastBuildDate><item><title>Github Star</title><link>http://marioidival.github.io/github-star.html</link><description>&lt;h1&gt;Mendigando Star no Github&lt;/h1&gt;
 &lt;p&gt;Pode parecer que estou pedindo &lt;code&gt;star&lt;/code&gt; em meus projetos no Github, mas é em prol da comunidade OSI. Deveríamos dar mais &lt;code&gt;Star&lt;/code&gt; em outros projetos&lt;/p&gt;
 &lt;h1&gt;* &lt;em&gt; * &lt;/em&gt; *&lt;/h1&gt;
 &lt;p&gt;Você sabe o que seus &lt;code&gt;stars&lt;/code&gt; pode fazer? Observe:&lt;/p&gt;
@@ -17,7 +17,7 @@ elas descobriram. Então quando essa pessoa da um &lt;code&gt;Star&lt;/code&gt; 
 &lt;p&gt;Tente aplicar um filtro, não veja apenas o seu - digo, &lt;em&gt;se eu gostei desse projeto, eu dou um &lt;code&gt;Star&lt;/code&gt;, senão, passo...&lt;/em&gt; - veja por um lado que a sua comunidade de alguma forma pode se beneficiar com esse projeto.&lt;/p&gt;
 &lt;h3&gt;Observação:&lt;/h3&gt;
 &lt;p&gt;Se existe alguma coisa que você pense diferente, cria um comentário para discutimos.&lt;/p&gt;
-&lt;p&gt;Esse for o meu quarto post.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mário Idival</dc:creator><pubDate>Sun, 22 Feb 2015 12:15:00 -0300</pubDate><guid>tag:marioidival.github.io,2015-02-22:github-star.html</guid><category>marioidival</category><category>github</category><category>osi</category></item><item><title>Web Frameworks, Web Frameworks EVERYWHERE!</title><link>https://marioidival.github.io/web-frameworks-everywhere.html</link><description>&lt;h1&gt;Introdução&lt;/h1&gt;
+&lt;p&gt;Esse for o meu quarto post.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mário Idival</dc:creator><pubDate>Sun, 22 Feb 2015 12:15:00 -0300</pubDate><guid>tag:marioidival.github.io,2015-02-22:github-star.html</guid><category>marioidival</category><category>github</category><category>osi</category></item><item><title>Web Frameworks, Web Frameworks EVERYWHERE!</title><link>http://marioidival.github.io/web-frameworks-everywhere.html</link><description>&lt;h1&gt;Introdução&lt;/h1&gt;
 &lt;p&gt;Nesse exato momento, vários programadores da comunidade Python estão
 criando cursos (ou já criaram), para ensinar pela visão deles, sobre alguns frameworks
 usados para o desenvolvimento web. &lt;a href="http://djangoproject.com"&gt;Django&lt;/a&gt;, &lt;a href="http://www.web2py.com"&gt;Web2py&lt;/a&gt;, &lt;a href="http://www.pylonsproject.org"&gt;Pyramid&lt;/a&gt;, &lt;a href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt;,
@@ -43,7 +43,7 @@ que o aluno/programador vai saber, de fato, fazer suas escolhas.&lt;/p&gt;
 &lt;h3&gt;Observação:&lt;/h3&gt;
 &lt;p&gt;Se existe alguma coisa que você ache errado ou que faz diferente, cria
 um comentário para discutimos.&lt;/p&gt;
-&lt;p&gt;Esse foi o meu terceiro post.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mário Idival</dc:creator><pubDate>Thu, 04 Dec 2014 23:30:00 -0300</pubDate><guid>tag:marioidival.github.io,2014-12-04:web-frameworks-everywhere.html</guid><category>frameworks</category><category>django</category><category>web2py</category><category>flask</category><category>bottle</category><category>pyramid</category><category>gae</category></item><item><title>Como iniciar no Desenvolvimento Web</title><link>https://marioidival.github.io/iniciando-no-desenvolvimento-web.html</link><description>&lt;h1&gt;Introdução&lt;/h1&gt;
+&lt;p&gt;Esse foi o meu terceiro post.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mário Idival</dc:creator><pubDate>Thu, 04 Dec 2014 23:30:00 -0300</pubDate><guid>tag:marioidival.github.io,2014-12-04:web-frameworks-everywhere.html</guid><category>frameworks</category><category>django</category><category>web2py</category><category>flask</category><category>bottle</category><category>pyramid</category><category>gae</category></item><item><title>Como iniciar no Desenvolvimento Web</title><link>http://marioidival.github.io/iniciando-no-desenvolvimento-web.html</link><description>&lt;h1&gt;Introdução&lt;/h1&gt;
 &lt;p&gt;A dias já pensava em criar algum post relacionado a este assunto. Vejo
 muita gente perguntando, não só na comunidade Python, como iniciar o
 desenvolvimento web. E a resposta sempre é a mesma, dependendo da
@@ -115,7 +115,7 @@ que ele quer fazer para estudo, vai ser de ótima ajuda.&lt;/p&gt;
 &lt;h3&gt;Observação:&lt;/h3&gt;
 &lt;p&gt;Se existe alguma coisa que você ache errado ou que faz diferente, cria
 um comentario para discutimos.&lt;/p&gt;
-&lt;p&gt;Esse foi o meu segundo post.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mário Idival</dc:creator><pubDate>Sun, 28 Sep 2014 00:46:00 -0300</pubDate><guid>tag:marioidival.github.io,2014-09-28:iniciando-no-desenvolvimento-web.html</guid><category>frameworks</category><category>rails</category><category>sinatra</category><category>flask</category><category>django</category></item><item><title>First</title><link>https://marioidival.github.io/first-post.html</link><description>&lt;h1&gt;Primeiramente, Bem vindo!&lt;/h1&gt;
+&lt;p&gt;Esse foi o meu segundo post.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mário Idival</dc:creator><pubDate>Sun, 28 Sep 2014 00:46:00 -0300</pubDate><guid>tag:marioidival.github.io,2014-09-28:iniciando-no-desenvolvimento-web.html</guid><category>frameworks</category><category>rails</category><category>sinatra</category><category>flask</category><category>django</category></item><item><title>First</title><link>http://marioidival.github.io/first-post.html</link><description>&lt;h1&gt;Primeiramente, Bem vindo!&lt;/h1&gt;
 &lt;p&gt;:)&lt;/p&gt;
 &lt;h1&gt;Segundamente Quem sou eu (parcialmente)&lt;/h1&gt;
 &lt;p&gt;Bom, me chamo Mário Idival, tenho 22 anos e sou Programador/Desenvolvedor Web usando
