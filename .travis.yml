@@ -1,6 +1,3 @@
-branches:
-    only:
-        - gh-pages
 language:
     python
 python:
