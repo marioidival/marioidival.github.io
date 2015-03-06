@@ -1,3 +1,6 @@
+branhces:
+    only:
+        - master
 language:
     python
 python:
