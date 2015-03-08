@@ -11,4 +11,4 @@ notifications:
 after_success: bash deploy.sh
 env:
   global:
-    secure: XP0G8KvGDejvxt2Tz7wL2UTkI5E45ssBk3E4CuA7uFd9Ec/VMRjZQJaBqoMU08M6SpYZmN4WlEPVPSfUstQTSWMjFJE/WqQLhxqScggZQLHk3QG/r8Y6J7VQ7AmScK/dWbUz9rcX39ZVfIA7s6Xo0tEUkol5olYD+M/pPgP5QsU=
+    secure: E8v/sEAAEHvXIaA6jlY3PIXckWF34h66G9eWLo4Sog94KgLM3iZ///RIQ2J5RzEVEoz1t8KpQ7bUtStCN/tLs9/HJD10CPAdsAuEvmwK3p30pFNyERLsmiAvMoPAj9ueU+h/UEpmhYajAb0iqBXmaOvHwOiDMP5ME9mX90/UIk4=
