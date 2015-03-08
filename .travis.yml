@@ -8,7 +8,7 @@ script:
 - make show
 notifications:
   webhooks: http://hooktwitterblog.herokuapp.com/travis
-after_success: bash deploy.sh
 env:
-  global:
-    secure: E8v/sEAAEHvXIaA6jlY3PIXckWF34h66G9eWLo4Sog94KgLM3iZ///RIQ2J5RzEVEoz1t8KpQ7bUtStCN/tLs9/HJD10CPAdsAuEvmwK3p30pFNyERLsmiAvMoPAj9ueU+h/UEpmhYajAb0iqBXmaOvHwOiDMP5ME9mX90/UIk4=
+    global:
+        secure: BuxhRNrdUC9q4loj9PDBsx6TFDdlc7YDx4B2P5pfEr9psO1kTOvT3c1ozraFjRgxZclp1tCvYnQnJvqZad1eKfewZpRFet9vLnCFrm/gXaYl0NbnJ3ZNjnYj2l4QJuCiyf06seTcXmY3koLNDTRBIONoRrJg7lY23RDPPlkeGXA=
+after_success: bash deploy.sh
