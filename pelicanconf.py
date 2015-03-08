@@ -59,7 +59,7 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 10
 # THEME = 'themes/jesuislibre'
-THEME = "/Users/marioidival/Development/python/projects/pelican-utils/pelican-themes-master/built-texts"
+THEME = "built-texts/"
 
 AUTHOR_IMG = 'https://avatars0.githubusercontent.com/u/1129263?v=2&s=460'
 COLOPHON = True

@@ -1,0 +1,9 @@
+{% if COLOPHON %}
+<div class="span8" id="colophon">
+  <h2 align="center">{{ AUTHOR }}</h2>
+  <div class="span3">
+    <img src="{{ AUTHOR_IMG }}" alt="{{ AUTHOR }}" width="128" height="108"/>
+  </div>
+    <p align="justify"> {{ COLOPHON_CONTENT }} </p>
+</div>
+{% endif %}
