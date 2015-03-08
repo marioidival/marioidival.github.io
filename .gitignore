@@ -25,7 +25,6 @@ themes/
 .DS_Store
 *.pid
 themes
-output
 cache
 # Installer logs
 pip-log.txt

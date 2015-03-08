@@ -1,19 +1,12 @@
-branches:
-    only:
-        - gh-pages
-language:
-    python
+language: python
 python:
-  - "2.7"
-    # command to install dependencies
-install:
-  "pip install -r requirements.txt"
+- '2.7'
+install: pip install -r requirements.txt
 env:
-    global:
-        - secure: JyeO72eRh6NLhivw9+sMW2z6H95vLgS5JBERvqzb7KzthU3sjzc5u+ZpSLm3GuvyuP4sV51bjdXYvxlgs2kN8Yz5ThO/kM7Ej037RdyKNbLl0YWsryZAPTBLJH03ahdyK32G+2PA9znwXuL1eDiT01ET5DQZluzr8eap9rXh5zA=
+  global:
+  - secure: LPgdnBKtYNBCkpeB1ZK/o4eRVejkyCw8tvHjpJuAYbTu8X9wd9/rVzatmydZAsVZQrJMXePmZK86nVL2lEkRRrVx6kefSJCKXHZIofl5UMKvA9VRW5Gc95efpM0Knk0/9k1uvEovaIV6ATzgjrmfxVY7zz32R3oVytlOHDBueG8=
 script:
-    - make show
+- make show
 notifications:
-    webhooks: http://hooktwitterblog.herokuapp.com/travis
-after_success:
-    bash deploy.sh
+  webhooks: http://hooktwitterblog.herokuapp.com/travis
+after_success: bash deploy.sh
