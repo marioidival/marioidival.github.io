@@ -10,7 +10,7 @@ install:
   "pip install -r requirements.txt"
 env:
     global:
-        secure: JyeO72eRh6NLhivw9+sMW2z6H95vLgS5JBERvqzb7KzthU3sjzc5u+ZpSLm3GuvyuP4sV51bjdXYvxlgs2kN8Yz5ThO/kM7Ej037RdyKNbLl0YWsryZAPTBLJH03ahdyK32G+2PA9znwXuL1eDiT01ET5DQZluzr8eap9rXh5zA=
+        - secure: JyeO72eRh6NLhivw9+sMW2z6H95vLgS5JBERvqzb7KzthU3sjzc5u+ZpSLm3GuvyuP4sV51bjdXYvxlgs2kN8Yz5ThO/kM7Ej037RdyKNbLl0YWsryZAPTBLJH03ahdyK32G+2PA9znwXuL1eDiT01ET5DQZluzr8eap9rXh5zA=
 script:
     - make show
 notifications:
