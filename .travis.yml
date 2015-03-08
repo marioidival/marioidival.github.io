@@ -1,15 +1,14 @@
 branches:
-    only:
-        gh-pages
+  only: gh-pages
 language: python
 python:
 - '2.7'
 install: pip install -r requirements.txt
-env:
-  global:
-  - secure: LPgdnBKtYNBCkpeB1ZK/o4eRVejkyCw8tvHjpJuAYbTu8X9wd9/rVzatmydZAsVZQrJMXePmZK86nVL2lEkRRrVx6kefSJCKXHZIofl5UMKvA9VRW5Gc95efpM0Knk0/9k1uvEovaIV6ATzgjrmfxVY7zz32R3oVytlOHDBueG8=
 script:
 - make show
 notifications:
   webhooks: http://hooktwitterblog.herokuapp.com/travis
 after_success: bash deploy.sh
+env:
+  global:
+    secure: XP0G8KvGDejvxt2Tz7wL2UTkI5E45ssBk3E4CuA7uFd9Ec/VMRjZQJaBqoMU08M6SpYZmN4WlEPVPSfUstQTSWMjFJE/WqQLhxqScggZQLHk3QG/r8Y6J7VQ7AmScK/dWbUz9rcX39ZVfIA7s6Xo0tEUkol5olYD+M/pPgP5QsU=
