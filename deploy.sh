@@ -3,7 +3,7 @@ BRANCH=master
 TARGET_REPO=marioidival/marioidival.github.io
 PELICAN_OUTPUT_FOLDER=output
 
-echo -e "Testing travis-encrypt ><"
+echo -e "Testing travis-encrypt >< AAAAAA"
 echo -e "$VARNAME"
 
 if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
