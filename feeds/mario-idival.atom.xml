@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mario Idival on Blog</title><link href="https://marioidival.github.io/" rel="alternate"></link><link href="https://marioidival.github.io/feeds/mario-idival.atom.xml" rel="self"></link><id>https://marioidival.github.io/</id><updated>2015-02-22T12:15:00-03:00</updated><entry><title>Github Star</title><link href="https://marioidival.github.io/github-star.html" rel="alternate"></link><updated>2015-02-22T12:15:00-03:00</updated><author><name>Mário Idival</name></author><id>tag:marioidival.github.io,2015-02-22:github-star.html</id><summary type="html">&lt;h1&gt;Mendigando Star no Github&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mario Idival on Blog</title><link href="https://marioidival.github.io/" rel="alternate"></link><link href="https://marioidival.github.io/feeds/mario-idival.atom.xml" rel="self"></link><id>https://marioidival.github.io/</id><updated>2015-03-24T00:26:00-03:00</updated><entry><title>Diabetes</title><link href="https://marioidival.github.io/diabetes.html" rel="alternate"></link><updated>2015-03-24T00:26:00-03:00</updated><author><name>Mário Idival</name></author><id>tag:marioidival.github.io,2015-03-24:diabetes.html</id><summary type="html">&lt;p&gt;Pois bem, a alguns meses descobri que tenho diabetes. Uma doença silenciosa e que se não for tratada, te mata aos poucos.
+É, ela também aparece em 2 tipos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Diabetes tipo 1: Ela já vem de fábrica, quando você nasce, acontece quando alguém de sua família possui, por parte de Pai ou Mãe. Necessita de insulina &lt;code&gt;forever&lt;/code&gt; e de dietas.&lt;/li&gt;
+&lt;li&gt;Diabetes tipo 2: Ai é quando você exagera na comida (massa, doces...), é sedentário, e quase sempre em pessoas com uns quilinhos a mais (gordos), pessoas com idade um pouco avançada (40 anos +). Levantar a bunda da cadeira e corrigir alguns habitos alimentares resolve.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Não são descrições fieis mas é mais ou menos isso ai.
+No meu caso é do tipo 1, eu já nasci com ela. Segundo o médico, estão surgindo casos conhecidos como &lt;code&gt;Diabetes Precoce&lt;/code&gt; ou &lt;code&gt;Diabetes Tardia&lt;/code&gt;, o que significa, a Diabetes Precoce (diabetes tipo 2) aparece em pessoas mais jovens, porém com alguns dos sintomas citados. E a Diabetes Tardia (diabetes tipo 1) é aquela que você nasce com ela, porém só aparece muito tarde, como foi o meu caso.&lt;/p&gt;
+&lt;p&gt;É complicado, saber que você vai ter que tomar insulina para todo o sempre, comer coisas que você não gosta e principalmente, deixar de comer as coisas boas - deixar é radical, mas diminuir bastante, tipo quase nunca...&lt;/p&gt;
+&lt;p&gt;Infelizmente, mesmo sabendo que isso é controlável com tratamento, tenho dificuldades para lidar com isso tudo, estou um pouco estressado - um pouco não, muito, com tudo e todos -, não consigo terminar coisas que começo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/marioidival/owncis"&gt;Owncis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/marioidival/dumpyme"&gt;Dumpyme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/marioidival/rest_api_pyramid_example"&gt;Post mostrando como fazer REST com Pyramid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/marioidival/gandalf"&gt;Gandalf - colocar o Gandalf com Mercurial e Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/marioidival/reddit"&gt;Reddit - Versão do reddit feita com Pyramid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=""&gt;Faculdade - TADS IFRN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Enfim, espero que você tenha bons habitos alimentares, faça exercicios, não abusem.
+Espero também quando eu voltar e ler isso aqui, que eu tenha melhorado psicologicamente.&lt;/p&gt;</summary><category term="saude"></category><category term="auto-estima"></category><category term="marioidival"></category></entry><entry><title>Github Star</title><link href="https://marioidival.github.io/github-star.html" rel="alternate"></link><updated>2015-02-22T12:15:00-03:00</updated><author><name>Mário Idival</name></author><id>tag:marioidival.github.io,2015-02-22:github-star.html</id><summary type="html">&lt;h1&gt;Mendigando Star no Github&lt;/h1&gt;
 &lt;p&gt;Pode parecer que estou pedindo &lt;code&gt;star&lt;/code&gt; em meus projetos no Github, mas é em prol da comunidade OSI. Deveríamos dar mais &lt;code&gt;Star&lt;/code&gt; em outros projetos&lt;/p&gt;
 &lt;h1&gt;* &lt;em&gt; * &lt;/em&gt; *&lt;/h1&gt;
 &lt;p&gt;Você sabe o que seus &lt;code&gt;stars&lt;/code&gt; pode fazer? Observe:&lt;/p&gt;
